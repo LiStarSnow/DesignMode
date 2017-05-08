@@ -1,5 +1,0 @@
-C:\Work\Star\DesignMode\StateMode_状态模式\bin\Debug\StateMode_状态模式.dll
-C:\Work\Star\DesignMode\StateMode_状态模式\bin\Debug\StateMode_状态模式.pdb
-C:\Work\Star\DesignMode\StateMode_状态模式\obj\Debug\StateMode_状态模式.csprojResolveAssemblyReference.cache
-C:\Work\Star\DesignMode\StateMode_状态模式\obj\Debug\StateMode_状态模式.dll
-C:\Work\Star\DesignMode\StateMode_状态模式\obj\Debug\StateMode_状态模式.pdb

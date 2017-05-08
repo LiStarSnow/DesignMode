@@ -1,5 +1,0 @@
-C:\Work\Star\DesignMode\PrototypeMode\bin\Debug\PrototypeMode.dll
-C:\Work\Star\DesignMode\PrototypeMode\bin\Debug\PrototypeMode.pdb
-C:\Work\Star\DesignMode\PrototypeMode\obj\Debug\PrototypeMode.csprojResolveAssemblyReference.cache
-C:\Work\Star\DesignMode\PrototypeMode\obj\Debug\PrototypeMode.dll
-C:\Work\Star\DesignMode\PrototypeMode\obj\Debug\PrototypeMode.pdb

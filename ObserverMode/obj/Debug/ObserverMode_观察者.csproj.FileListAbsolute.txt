@@ -1,5 +1,0 @@
-C:\Work\Star\DesignMode\ObserverMode\bin\Debug\ObserverMode.dll
-C:\Work\Star\DesignMode\ObserverMode\bin\Debug\ObserverMode.pdb
-C:\Work\Star\DesignMode\ObserverMode\obj\Debug\ObserverMode_观察者.csprojResolveAssemblyReference.cache
-C:\Work\Star\DesignMode\ObserverMode\obj\Debug\ObserverMode.dll
-C:\Work\Star\DesignMode\ObserverMode\obj\Debug\ObserverMode.pdb

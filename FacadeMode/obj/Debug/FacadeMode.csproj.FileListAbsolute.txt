@@ -1,5 +1,0 @@
-C:\Work\Star\DesignMode\FacadeMode\bin\Debug\FacadeMode.dll
-C:\Work\Star\DesignMode\FacadeMode\bin\Debug\FacadeMode.pdb
-C:\Work\Star\DesignMode\FacadeMode\obj\Debug\FacadeMode.csprojResolveAssemblyReference.cache
-C:\Work\Star\DesignMode\FacadeMode\obj\Debug\FacadeMode.dll
-C:\Work\Star\DesignMode\FacadeMode\obj\Debug\FacadeMode.pdb

@@ -1,4 +1,0 @@
-C:\Work\Star\DesignMode\DecoratorMode\bin\Debug\DecoratorMode.dll
-C:\Work\Star\DesignMode\DecoratorMode\bin\Debug\DecoratorMode.pdb
-C:\Work\Star\DesignMode\DecoratorMode\obj\Debug\DecoratorMode.dll
-C:\Work\Star\DesignMode\DecoratorMode\obj\Debug\DecoratorMode.pdb

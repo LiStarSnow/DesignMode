@@ -1,5 +1,0 @@
-C:\Work\Star\DesignMode\BygherrerMode\bin\Debug\BygherrerMode.dll
-C:\Work\Star\DesignMode\BygherrerMode\bin\Debug\BygherrerMode.pdb
-C:\Work\Star\DesignMode\BygherrerMode\obj\Debug\BygherrerMode.csprojResolveAssemblyReference.cache
-C:\Work\Star\DesignMode\BygherrerMode\obj\Debug\BygherrerMode.dll
-C:\Work\Star\DesignMode\BygherrerMode\obj\Debug\BygherrerMode.pdb

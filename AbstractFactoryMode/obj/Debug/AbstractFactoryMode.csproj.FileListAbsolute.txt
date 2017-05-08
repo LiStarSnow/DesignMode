@@ -1,5 +1,0 @@
-C:\Work\Star\DesignMode\AbstractFactoryMode\bin\Debug\AbstractFactoryMode.dll
-C:\Work\Star\DesignMode\AbstractFactoryMode\bin\Debug\AbstractFactoryMode.pdb
-C:\Work\Star\DesignMode\AbstractFactoryMode\obj\Debug\AbstractFactoryMode.csprojResolveAssemblyReference.cache
-C:\Work\Star\DesignMode\AbstractFactoryMode\obj\Debug\AbstractFactoryMode.dll
-C:\Work\Star\DesignMode\AbstractFactoryMode\obj\Debug\AbstractFactoryMode.pdb
