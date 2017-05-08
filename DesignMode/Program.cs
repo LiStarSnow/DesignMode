@@ -9,6 +9,7 @@ using FactoryMethodMode;
 using PrototypeMode;
 using TemplateMethodMode;
 using FacadeMode;
+using StateMode_状态模式;
 
 namespace DesignMode
 {
@@ -140,8 +141,6 @@ namespace DesignMode
 
             #endregion 建造者模式
 
-
-
             #region 观察者模式
 
             Console.WriteLine("*******************************观察者模式*******************************");
@@ -220,6 +219,13 @@ namespace DesignMode
              * 把状态的判断逻辑转移到表示不同的状态的一系列类中，可以把复杂的判断逻辑简化。
              * 
              */
+            Console.WriteLine("*******************************状态模式*******************************");
+
+            Context context = new Context(new ConcreteStateA());
+
+            context.Request();
+            context.Request();
+            Console.Read();
 
             #endregion 状态模式
 

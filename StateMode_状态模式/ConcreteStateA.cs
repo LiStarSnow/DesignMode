@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace StateMode_状态模式
 {
-    public class Class1
+    public class ConcreteStateA : State
     {
+        public override void Handle(Context context)
+        {
+            context.State = new ConcreteStateB();
+        }
     }
 }

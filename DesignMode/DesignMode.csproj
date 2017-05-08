@@ -85,6 +85,10 @@
       <Project>{d9236b4f-3bec-486d-8c99-52fc3a220b32}</Project>
       <Name>ProxyMode_代理模式</Name>
     </ProjectReference>
+    <ProjectReference Include="..\StateMode_状态模式\StateMode_状态模式.csproj">
+      <Project>{3b297617-55fe-408e-9da7-2c24cbcbf5c5}</Project>
+      <Name>StateMode_状态模式</Name>
+    </ProjectReference>
     <ProjectReference Include="..\TemplateMethodMode\TemplateMethodMode_模板模式.csproj">
       <Project>{F4CF94AD-C2CE-4EF7-B281-9D04BDAFE48E}</Project>
       <Name>TemplateMethodMode_模板模式</Name>

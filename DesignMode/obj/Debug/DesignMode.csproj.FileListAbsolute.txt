@@ -25,3 +25,5 @@ C:\Work\Star\DesignMode\DesignMode\bin\Debug\ObserverMode.dll
 C:\Work\Star\DesignMode\DesignMode\bin\Debug\ObserverMode.pdb
 C:\Work\Star\DesignMode\DesignMode\bin\Debug\ObserverMode_观察者委托.dll
 C:\Work\Star\DesignMode\DesignMode\bin\Debug\ObserverMode_观察者委托.pdb
+C:\Work\Star\DesignMode\DesignMode\bin\Debug\StateMode_状态模式.dll
+C:\Work\Star\DesignMode\DesignMode\bin\Debug\StateMode_状态模式.pdb

@@ -1,5 +1,7 @@
 # Generated files
-*/bin/*
-*/Debug/*
+bin/
+Debug/
 */gen/
 */out/
+/packages/
+/.vs/
