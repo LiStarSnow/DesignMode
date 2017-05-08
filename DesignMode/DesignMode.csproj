@@ -53,6 +53,10 @@
       <Project>{A0D9FC97-59C7-4445-941A-057B3311BACD}</Project>
       <Name>AbstractFactoryMode_抽象工厂</Name>
     </ProjectReference>
+    <ProjectReference Include="..\AdapterMode_适配器模式\AdapterMode_适配器模式.csproj">
+      <Project>{5dc070d0-436f-430e-a696-9fedba6bad53}</Project>
+      <Name>AdapterMode_适配器模式</Name>
+    </ProjectReference>
     <ProjectReference Include="..\BygherrerMode\BygherrerMode_建造者.csproj">
       <Project>{b59e17b8-1655-419e-bf4e-14967ab04300}</Project>
       <Name>BygherrerMode_建造者</Name>
