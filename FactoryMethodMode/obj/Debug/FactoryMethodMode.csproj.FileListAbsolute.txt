@@ -1,0 +1,5 @@
+C:\Work\Star\DesignMode\FactoryMethodMode\bin\Debug\FactoryMethodMode.dll
+C:\Work\Star\DesignMode\FactoryMethodMode\bin\Debug\FactoryMethodMode.pdb
+C:\Work\Star\DesignMode\FactoryMethodMode\obj\Debug\FactoryMethodMode.csprojResolveAssemblyReference.cache
+C:\Work\Star\DesignMode\FactoryMethodMode\obj\Debug\FactoryMethodMode.dll
+C:\Work\Star\DesignMode\FactoryMethodMode\obj\Debug\FactoryMethodMode.pdb

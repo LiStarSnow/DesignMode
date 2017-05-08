@@ -1,0 +1,5 @@
+C:\Work\Star\DesignMode\ObserverMode_观察者委托\bin\Debug\ObserverMode_观察者委托.dll
+C:\Work\Star\DesignMode\ObserverMode_观察者委托\bin\Debug\ObserverMode_观察者委托.pdb
+C:\Work\Star\DesignMode\ObserverMode_观察者委托\obj\Debug\ObserverMode_观察者委托.csprojResolveAssemblyReference.cache
+C:\Work\Star\DesignMode\ObserverMode_观察者委托\obj\Debug\ObserverMode_观察者委托.dll
+C:\Work\Star\DesignMode\ObserverMode_观察者委托\obj\Debug\ObserverMode_观察者委托.pdb

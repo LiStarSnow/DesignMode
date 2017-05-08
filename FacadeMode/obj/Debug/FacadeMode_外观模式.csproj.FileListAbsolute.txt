@@ -1,0 +1,5 @@
+C:\Work\Star\DesignMode\FacadeMode\bin\Debug\FacadeMode.dll
+C:\Work\Star\DesignMode\FacadeMode\bin\Debug\FacadeMode.pdb
+C:\Work\Star\DesignMode\FacadeMode\obj\Debug\FacadeMode_外观模式.csprojResolveAssemblyReference.cache
+C:\Work\Star\DesignMode\FacadeMode\obj\Debug\FacadeMode.dll
+C:\Work\Star\DesignMode\FacadeMode\obj\Debug\FacadeMode.pdb

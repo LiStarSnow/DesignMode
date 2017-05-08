@@ -1,0 +1,5 @@
+# Generated files
+*/bin/*
+*/Debug/*
+*/gen/
+*/out/

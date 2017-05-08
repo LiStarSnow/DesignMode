@@ -1,0 +1,5 @@
+C:\Work\Star\DesignMode\ProxyMode\bin\Debug\ProxyMode.dll
+C:\Work\Star\DesignMode\ProxyMode\bin\Debug\ProxyMode.pdb
+C:\Work\Star\DesignMode\ProxyMode\obj\Debug\ProxyMode_代理模式.csprojResolveAssemblyReference.cache
+C:\Work\Star\DesignMode\ProxyMode\obj\Debug\ProxyMode.dll
+C:\Work\Star\DesignMode\ProxyMode\obj\Debug\ProxyMode.pdb

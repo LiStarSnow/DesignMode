@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{691E2AC7-1569-431B-94B6-2FF7CD746EF0}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DesignMode</RootNamespace>
+    <AssemblyName>DesignMode</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AbstractFactoryMode\AbstractFactoryMode_抽象工厂.csproj">
+      <Project>{A0D9FC97-59C7-4445-941A-057B3311BACD}</Project>
+      <Name>AbstractFactoryMode_抽象工厂</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BygherrerMode\BygherrerMode_建造者.csproj">
+      <Project>{b59e17b8-1655-419e-bf4e-14967ab04300}</Project>
+      <Name>BygherrerMode_建造者</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DecoratorMode\DecoratorMode_装扮模式.csproj">
+      <Project>{30d78317-ace2-40a9-8d69-510b3eac9782}</Project>
+      <Name>DecoratorMode_装扮模式</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FacadeMode\FacadeMode_外观模式.csproj">
+      <Project>{F6847FBB-708F-4B5B-B8FD-A3B1BF924195}</Project>
+      <Name>FacadeMode_外观模式</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FactoryMethodMode\FactoryMethodMode_工厂方法.csproj">
+      <Project>{da66a91d-6c29-4733-8c55-b51907d8b671}</Project>
+      <Name>FactoryMethodMode_工厂方法</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ObserverMode\ObserverMode_观察者.csproj">
+      <Project>{99b726c0-7e18-42d2-a52f-1a5acf7b9910}</Project>
+      <Name>ObserverMode_观察者</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ObserverMode_观察者委托\ObserverMode_观察者委托.csproj">
+      <Project>{e7a050e8-d189-418c-9cab-8903fcbc9fcd}</Project>
+      <Name>ObserverMode_观察者委托</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PrototypeMode\PrototypeMode_原型模式.csproj">
+      <Project>{715AAFD0-441D-408B-B24B-A271BFD53D9D}</Project>
+      <Name>PrototypeMode_原型模式</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ProxyMode\ProxyMode_代理模式.csproj">
+      <Project>{d9236b4f-3bec-486d-8c99-52fc3a220b32}</Project>
+      <Name>ProxyMode_代理模式</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TemplateMethodMode\TemplateMethodMode_模板模式.csproj">
+      <Project>{F4CF94AD-C2CE-4EF7-B281-9D04BDAFE48E}</Project>
+      <Name>TemplateMethodMode_模板模式</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

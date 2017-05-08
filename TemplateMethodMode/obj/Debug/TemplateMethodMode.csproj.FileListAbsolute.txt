@@ -1,0 +1,5 @@
+C:\Work\Star\DesignMode\TemplateMethodMode\bin\Debug\TemplateMethodMode.dll
+C:\Work\Star\DesignMode\TemplateMethodMode\bin\Debug\TemplateMethodMode.pdb
+C:\Work\Star\DesignMode\TemplateMethodMode\obj\Debug\TemplateMethodMode.csprojResolveAssemblyReference.cache
+C:\Work\Star\DesignMode\TemplateMethodMode\obj\Debug\TemplateMethodMode.dll
+C:\Work\Star\DesignMode\TemplateMethodMode\obj\Debug\TemplateMethodMode.pdb
