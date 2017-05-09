@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StateMode_状态模式", "S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterMode_适配器模式", "AdapterMode_适配器模式\AdapterMode_适配器模式.csproj", "{5DC070D0-436F-430E-A696-9FEDBA6BAD53}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemorandumMode_备忘录模式", "MemorandumMode_备忘录模式\MemorandumMode_备忘录模式.csproj", "{5BD26FB2-8547-4B3C-8139-E5D2C5D55D81}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{5DC070D0-436F-430E-A696-9FEDBA6BAD53}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5DC070D0-436F-430E-A696-9FEDBA6BAD53}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5DC070D0-436F-430E-A696-9FEDBA6BAD53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BD26FB2-8547-4B3C-8139-E5D2C5D55D81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BD26FB2-8547-4B3C-8139-E5D2C5D55D81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BD26FB2-8547-4B3C-8139-E5D2C5D55D81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BD26FB2-8547-4B3C-8139-E5D2C5D55D81}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

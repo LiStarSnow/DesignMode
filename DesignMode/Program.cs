@@ -11,6 +11,7 @@ using TemplateMethodMode;
 using FacadeMode;
 using StateMode_状态模式;
 using AdapterMode_适配器模式;
+using MemorandumMode_备忘录模式;
 
 namespace DesignMode
 {
@@ -252,6 +253,29 @@ namespace DesignMode
 
 
             #endregion 适配器模式
+
+            #region 备忘录模式
+
+            /*
+             * 在不破坏封装性的前提下，捕获一个对象的内部状态，并在该对象之外保存这个状态。
+             * 这样以后就可将该对象恢复到原先保存的状态。
+             * 
+             */
+            Console.WriteLine("*******************************备忘录模式*******************************");
+
+            Originator o = new Originator();
+            o.State = "On";
+
+            Caretaker c = new Caretaker();
+            c.Memento = o.CreateMemento();
+
+            o.State = "Off ";
+            o.Show();
+
+            o.SetMemento(c.Memento);
+            o.Show();
+
+            #endregion 备忘录模式
 
 
             Console.ReadLine();

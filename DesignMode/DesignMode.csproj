@@ -73,6 +73,10 @@
       <Project>{da66a91d-6c29-4733-8c55-b51907d8b671}</Project>
       <Name>FactoryMethodMode_工厂方法</Name>
     </ProjectReference>
+    <ProjectReference Include="..\MemorandumMode_备忘录模式\MemorandumMode_备忘录模式.csproj">
+      <Project>{5bd26fb2-8547-4b3c-8139-e5d2c5d55d81}</Project>
+      <Name>MemorandumMode_备忘录模式</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ObserverMode\ObserverMode_观察者.csproj">
       <Project>{99b726c0-7e18-42d2-a52f-1a5acf7b9910}</Project>
       <Name>ObserverMode_观察者</Name>
