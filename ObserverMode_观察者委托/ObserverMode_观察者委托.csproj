@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{E7A050E8-D189-418C-9CAB-8903FCBC9FCD}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ObserverMode_观察者委托</RootNamespace>
     <AssemblyName>ObserverMode_观察者委托</AssemblyName>
@@ -29,6 +29,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -40,13 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Boss.cs" />
-    <Compile Include="NBAObserver.cs" />
-    <Compile Include="Secretary.cs" />
-    <Compile Include="ConcreteObserver.cs" />
-    <Compile Include="Observer.cs" />
+    <Compile Include="Structural\Boss.cs" />
+    <Compile Include="Structural\NBAObserver.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Structural\Secretary.cs" />
+    <Compile Include="Structural\ConcreteObserver.cs" />
+    <Compile Include="Structural\Observer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Subject.cs" />
+    <Compile Include="Structural\Subject.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

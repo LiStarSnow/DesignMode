@@ -49,57 +49,45 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AbstractFactoryMode\AbstractFactoryMode_抽象工厂.csproj">
+    <ProjectReference Include="..\AbstractFactoryMode\AbstractFactoryMode.csproj">
       <Project>{A0D9FC97-59C7-4445-941A-057B3311BACD}</Project>
-      <Name>AbstractFactoryMode_抽象工厂</Name>
+      <Name>AbstractFactoryMode</Name>
     </ProjectReference>
-    <ProjectReference Include="..\AdapterMode_适配器模式\AdapterMode_适配器模式.csproj">
+    <ProjectReference Include="..\AdapterMode_适配器模式\AdapterMode.csproj">
       <Project>{5dc070d0-436f-430e-a696-9fedba6bad53}</Project>
-      <Name>AdapterMode_适配器模式</Name>
+      <Name>AdapterMode</Name>
     </ProjectReference>
-    <ProjectReference Include="..\BygherrerMode\BygherrerMode_建造者.csproj">
-      <Project>{b59e17b8-1655-419e-bf4e-14967ab04300}</Project>
-      <Name>BygherrerMode_建造者</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\DecoratorMode\DecoratorMode_装扮模式.csproj">
+    <ProjectReference Include="..\DecoratorMode\DecoratorMode.csproj">
       <Project>{30d78317-ace2-40a9-8d69-510b3eac9782}</Project>
-      <Name>DecoratorMode_装扮模式</Name>
+      <Name>DecoratorMode</Name>
     </ProjectReference>
-    <ProjectReference Include="..\FacadeMode\FacadeMode_外观模式.csproj">
+    <ProjectReference Include="..\FacadeMode\FacadeMode.csproj">
       <Project>{F6847FBB-708F-4B5B-B8FD-A3B1BF924195}</Project>
-      <Name>FacadeMode_外观模式</Name>
+      <Name>FacadeMode</Name>
     </ProjectReference>
-    <ProjectReference Include="..\FactoryMethodMode\FactoryMethodMode_工厂方法.csproj">
+    <ProjectReference Include="..\FactoryMethodMode\FactoryMethodMode.csproj">
       <Project>{da66a91d-6c29-4733-8c55-b51907d8b671}</Project>
-      <Name>FactoryMethodMode_工厂方法</Name>
+      <Name>FactoryMethodMode</Name>
     </ProjectReference>
-    <ProjectReference Include="..\MemorandumMode_备忘录模式\MemorandumMode_备忘录模式.csproj">
-      <Project>{5bd26fb2-8547-4b3c-8139-e5d2c5d55d81}</Project>
-      <Name>MemorandumMode_备忘录模式</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\ObserverMode\ObserverMode_观察者.csproj">
+    <ProjectReference Include="..\ObserverMode\ObserverMode.csproj">
       <Project>{99b726c0-7e18-42d2-a52f-1a5acf7b9910}</Project>
-      <Name>ObserverMode_观察者</Name>
+      <Name>ObserverMode</Name>
     </ProjectReference>
     <ProjectReference Include="..\ObserverMode_观察者委托\ObserverMode_观察者委托.csproj">
       <Project>{e7a050e8-d189-418c-9cab-8903fcbc9fcd}</Project>
       <Name>ObserverMode_观察者委托</Name>
     </ProjectReference>
-    <ProjectReference Include="..\PrototypeMode\PrototypeMode_原型模式.csproj">
+    <ProjectReference Include="..\PrototypeMode\PrototypeMode.csproj">
       <Project>{715AAFD0-441D-408B-B24B-A271BFD53D9D}</Project>
-      <Name>PrototypeMode_原型模式</Name>
+      <Name>PrototypeMode</Name>
     </ProjectReference>
-    <ProjectReference Include="..\ProxyMode\ProxyMode_代理模式.csproj">
+    <ProjectReference Include="..\ProxyMode\ProxyMode.csproj">
       <Project>{d9236b4f-3bec-486d-8c99-52fc3a220b32}</Project>
-      <Name>ProxyMode_代理模式</Name>
+      <Name>ProxyMode</Name>
     </ProjectReference>
-    <ProjectReference Include="..\StateMode_状态模式\StateMode_状态模式.csproj">
-      <Project>{3b297617-55fe-408e-9da7-2c24cbcbf5c5}</Project>
-      <Name>StateMode_状态模式</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\TemplateMethodMode\TemplateMethodMode_模板模式.csproj">
+    <ProjectReference Include="..\TemplateMethodMode\TemplateMethodMode.csproj">
       <Project>{F4CF94AD-C2CE-4EF7-B281-9D04BDAFE48E}</Project>
-      <Name>TemplateMethodMode_模板模式</Name>
+      <Name>TemplateMethodMode</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
