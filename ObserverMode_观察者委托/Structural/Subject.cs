@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace ObserverMode_观察者委托.Structural
 {
     /// <summary>
-    /// 通知者接口
+    /// 通知者接口（被观察的对象）
     /// </summary>
     public interface Subject
     {

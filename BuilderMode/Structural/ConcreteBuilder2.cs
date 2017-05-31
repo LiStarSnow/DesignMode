@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BuilderMode
+namespace BuilderMode.Structural
 {
     public class ConcreteBuilder2 : Builder
     {

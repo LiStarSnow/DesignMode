@@ -10,7 +10,7 @@ namespace FactoryMethodMode
     {
         public ConcreteProduct FactoryMethod()
         {
-            throw new NotImplementedException();
+            return new ConcreteProduct();
         }
     }
 }

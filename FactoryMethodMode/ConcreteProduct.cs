@@ -8,5 +8,9 @@ namespace FactoryMethodMode
 {
     public class ConcreteProduct : Product
     {
+        public override void Display()
+        {
+            Console.Write("产品A");
+        }
     }
 }

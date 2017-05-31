@@ -8,6 +8,9 @@ namespace ObserverMode_观察者委托.Structural
 {
     public class Secretary : Subject
     {
+        /// <summary>
+        /// 观察者更新方法
+        /// </summary>
         public Action u;
 
         public string SubjectState

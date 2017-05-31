@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace FactoryMethodMode
 {
-    public interface Product
+    public abstract class Product
     {
+        public abstract void Display();
     }
 }

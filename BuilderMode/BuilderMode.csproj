@@ -43,14 +43,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Builder.cs" />
-    <Compile Include="ConcreteBuilder1.cs" />
-    <Compile Include="ConcreteBuilder2.cs" />
-    <Compile Include="Director.cs" />
-    <Compile Include="Product.cs" />
+    <Compile Include="Practical\CarBuilder.cs" />
+    <Compile Include="Practical\MotorCycleBuilder.cs" />
+    <Compile Include="Practical\ScooterBuilder.cs" />
+    <Compile Include="Practical\Shop.cs" />
+    <Compile Include="Practical\Vehicle.cs" />
+    <Compile Include="Practical\VehicleBuilder.cs" />
+    <Compile Include="Structural\Builder.cs" />
+    <Compile Include="Structural\ConcreteBuilder1.cs" />
+    <Compile Include="Structural\ConcreteBuilder2.cs" />
+    <Compile Include="Structural\Director.cs" />
+    <Compile Include="Structural\Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

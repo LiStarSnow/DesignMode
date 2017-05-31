@@ -10,7 +10,7 @@ namespace ObserverMode
             Console.WriteLine("*******************************观察者委托模式*******************************");
 
             Boss boss = new Boss();
-            boss.SubjectState = "回来啦。";
+            boss.SubjectState = "老板回来了。";
             StockObserver stockObserver1 = new StockObserver(boss, "周杰伦");
             boss.u += stockObserver1.CloseStockMarket;
             NBAObserver stockObserver2 = new NBAObserver(boss, "chenxi");
@@ -19,7 +19,7 @@ namespace ObserverMode
             boss.Notify();
 
             Secretary secretary = new Secretary();
-            secretary.SubjectState = "老板回来了";
+            secretary.SubjectState = "回来啦。";
             StockObserver stockObserver3 = new StockObserver(secretary, "周杰伦");
             secretary.u += stockObserver3.CloseStockMarket;
             NBAObserver stockObserver4 = new NBAObserver(secretary, "周杰伦");
