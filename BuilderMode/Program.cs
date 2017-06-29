@@ -14,11 +14,15 @@ namespace BuilderMode
         static void Main(string[] args)
         {
 
+            /**
+             * 将一个复杂对象的构建与它的表示分离，使得同样的构建过程可以创建不同的表示
+             */
+
             Director director = new Director();
 
             Builder builder1 = new ConcreteBuilder1();
             director.Construct(builder1);
-            Product p1=   builder1.GetResult();
+            Product p1 = builder1.GetResult();
             p1.Show();
 
             Builder builder2 = new ConcreteBuilder2();
@@ -28,14 +32,20 @@ namespace BuilderMode
 
 
             Shop shop = new Shop();
-
-            VehicleBuilder vehichleBuilder = new CarBuilder();
+            VehicleBuilder vehichleBuilder;
+            vehichleBuilder = new CarBuilder();
 
             shop.Construct(vehichleBuilder);
             Vehicle vehicle = vehichleBuilder.Vehicle;
             vehicle.Show();
 
-             vehichleBuilder = new MotorCycleBuilder();
+            vehichleBuilder = new MotorCycleBuilder();
+
+            shop.Construct(vehichleBuilder);
+            vehicle = vehichleBuilder.Vehicle;
+            vehicle.Show();
+
+            vehichleBuilder = new ScooterBuilder();
 
             shop.Construct(vehichleBuilder);
             vehicle = vehichleBuilder.Vehicle;

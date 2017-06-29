@@ -4,14 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProxyMode
+namespace MediatorMode.Structural
 {
     /// <summary>
-    /// 定义RealSubject和Proxy的共用接口
-    /// 
+    /// 抽象中介者
     /// </summary>
-    public abstract class Subject
+    public abstract class Mediator
     {
-        public abstract void Request();
+        public abstract void Send(string message, Colleague colleague);
     }
 }

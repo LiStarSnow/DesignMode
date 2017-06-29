@@ -40,9 +40,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Proxy.cs" />
-    <Compile Include="RealSubject.cs" />
-    <Compile Include="Subject.cs" />
+    <Compile Include="Practical\IMath.cs" />
+    <Compile Include="Practical\Math.cs" />
+    <Compile Include="Practical\MathProxy.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Structural\Proxy.cs" />
+    <Compile Include="Structural\ConcreteSubject.cs" />
+    <Compile Include="Structural\Subject.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -4,24 +4,24 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProxyMode
+namespace ProxyMode.Structural
 {
     /// <summary>
     /// 代理类，实现共用接口Subject
-    /// 隐藏RealSubject
+    /// 隐藏concreteSubject
     /// </summary>
     public class Proxy : Subject
     {
-        private RealSubject realSubject;
+        private ConcreteSubject concreteSubject;
 
         public override void Request()
         {
-            if(realSubject == null)
+            if(concreteSubject == null)
             {
-                realSubject = new RealSubject();
+                concreteSubject = new ConcreteSubject();
             }
 
-            realSubject.Request();
+            concreteSubject.Request();
         }
     }
 }

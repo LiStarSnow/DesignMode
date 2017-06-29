@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FacadeMode
+namespace FacadeMode.Structural
 {
-    class SubSystemTwo
+    class SubSystemThree
     {
-        public void MedthodTwo()
+        public void MedthodThree()
         {
-            Console.WriteLine("子系统方法二");
+            Console.WriteLine("子系统方法三");
         }
     }
 }

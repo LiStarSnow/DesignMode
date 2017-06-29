@@ -4,16 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FacadeMode
+namespace BridgeMode.Practical
 {
     /// <summary>
-    /// 子系统
+    /// 牛奶咖啡
     /// </summary>
-     class SubSystemOne
+    public class WhiteCoffee : MakeCoffee
     {
-        public void MedthodOne()
+        public override void Making()
         {
-            Console.WriteLine("子系统方法一");
+            Console.WriteLine("牛奶咖啡");
         }
     }
 }

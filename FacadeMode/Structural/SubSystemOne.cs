@@ -4,16 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProxyMode
+namespace FacadeMode.Structural
 {
     /// <summary>
-    /// 真实实现Subject
+    /// 子系统
     /// </summary>
-    internal class RealSubject : Subject
+     class SubSystemOne
     {
-        public override void Request()
+        public void MedthodOne()
         {
-            Console.WriteLine("真实请求");
+            Console.WriteLine("子系统方法一");
         }
     }
 }
